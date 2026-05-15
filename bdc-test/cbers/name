@@ -1,0 +1,29 @@
+ CBERS-4/MUX - Level-4-SR - Data Cube - LCF 2 months
+Collection Name:
+CBERS4-MUX-2M-1
+Description:
+Earth Observation Data Cube generated from CBERS-4/MUX Level-4 SR product over Brazil extension. This dataset is provided in Cloud Optimized GeoTIFF (COG) file format. The dataset is processed with 20 meters of spatial resolution, reprojected and cropped to BDC_MD grid Version 2 (BDC_MD V2), considering a temporal compositing function of 2 months using the Least Cloud Cover First (LCF) best pixel approach.
+
+Coverage:
+West-bound Longitude: -75.91383667010946
+South-bound Latitude: -34.67556459214432
+East-bound Longitude: -27.911421918803168
+North-bound Latitude: 5.9260044409503525
+
+Temporal Coverage:
+Start Date: 01/01/2016
+End Date: 30/04/2026
+Bands:
+
+Quicklook Bands (RGB):
+BAND7,BAND8,BAND5
+
+Temporal Composition:
+Schema: Cyclic
+Unit: month
+Step: 2
+Cycle Unit: year
+Cycle Step: 1
+
+Grid:
+BDC_MD_V2
